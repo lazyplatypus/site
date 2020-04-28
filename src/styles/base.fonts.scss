@@ -9,9 +9,7 @@
   font-family: 'Dia';
   font-weight: normal;
   font-style: normal;
-
-  src: url('/fonts/Dia/Dia-Regular.woff2') format('woff2'),
-    url('/fonts/Dia/Dia-Regular.woff') format('woff');
+  src: url('/fonts/CalibreWeb-Regular.woff') format('woff');
 }
 
 @font-face {
@@ -19,8 +17,7 @@
   font-weight: 800;
   font-style: normal;
 
-  src: url('/fonts/Dia/Dia-Black.woff2') format('woff2'),
-    url('/fonts/Dia/Dia-Black.woff') format('woff');
+  src: url('/fonts/CalibreWeb-Medium.woff') format('woff');
 }
 
 // IBM Plex Serif by IBM
