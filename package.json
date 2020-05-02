@@ -6,7 +6,7 @@
   "dependencies": {
     "autoprefixer": "^8.2.0",
     "babel-plugin-root-import": "^5.1.0",
-    "gatsby": "^2.1.0",
+    "gatsby": "^1.9.100",
     "gatsby-image": "^1.0.19",
     "gatsby-link": "^1.6.24",
     "gatsby-plugin-google-analytics": "^1.0.11",
@@ -16,7 +16,7 @@
     "gatsby-plugin-react-helmet": "^2.0.8",
     "gatsby-plugin-react-next": "^1.0.4",
     "gatsby-plugin-remove-serviceworker": "^1.0.0",
-    "gatsby-plugin-sharp": "^1.6.19",
+    "gatsby-plugin-sharp": "^2.5.0",
     "gatsby-plugin-sitemap": "^1.2.14",
     "gatsby-source-filesystem": "^1.5.7",
     "gatsby-transformer-javascript-frontmatter": "^1.0.8",
@@ -46,7 +46,8 @@
   "scripts": {
     "dev": "gatsby develop -S",
     "dev:build": "gatsby build",
-    "build": "gatsby build",
+    "build": "npm run fonts:fetch && gatsby build",
+    "fonts:fetch": "wget -O Dia.zip $SECRET_FONTS_URL; unzip Dia.zip -d ./static/fonts; rm Dia.zip",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
