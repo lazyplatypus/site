@@ -14,13 +14,13 @@ export default ({ scrollTop, title }) => (
             <li className="email">
               <a
                 className="link"
-                href="mailto:desk@fabianschultz.com?subject=Inquiry"
+                href="mailto:daniel@bitproject.org?subject=Contact Daniel"
               >
-                desk@fabianschultz.com
+                daniel@bitproject.org
               </a>
             </li>
             <li>
-              <a href="//github.com/fabe" title="GitHub">
+              <a href="//github.com/lazyplatypus" title="GitHub">
                 <img src={github} alt="GitHub" />
               </a>
             </li>
