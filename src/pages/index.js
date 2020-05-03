@@ -22,19 +22,16 @@ class Index extends React.Component {
         <Header cover={this.props.data.hero}>
           <div className="title">
             <h1>
-              Hello, I’m Fabian &mdash; a designer and front-end developer based
-              in Potsdam, Germany.
+              Hello, I’m Daniel 👋 <br></br>
+              I build cool things to solve real problems
             </h1>
           </div>
           <div className="summary">
             <p>
-              I’m focused on turning ideas into delightful, practical software,
-              doing my best work when collaborating closely with founders,
-              designers, and developers.
+              I turn ideas into software through interdisciplinary collaboration. 
             </p>
             <p>
-              Currently, I’m studying Interface Design at the University of
-              Applied Sciences in Potsdam, Germany.
+              Currently, I am looking for opportunities in Developer Relations and Product Management.
             </p>
           </div>
         </Header>
