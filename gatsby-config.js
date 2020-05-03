@@ -4,9 +4,9 @@ var cssvariables = require('postcss-css-variables');
 
 module.exports = {
   siteMetadata: {
-    title: 'Fabian Schultz',
-    author: 'Fabian Schultz',
-    siteUrl: `https://fabianschultz.com`,
+    title: 'Daniel Kim',
+    author: 'Daniel Kim',
+    siteUrl: `https://lazyplatypus.dev`,
   },
   plugins: [
     {

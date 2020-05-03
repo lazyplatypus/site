@@ -16,7 +16,7 @@ export const frontmatter = {
   title: 'Capture your moments as pictures with sound.',
   subtitle: 'Momenta',
   date: '2013-12-31',
-  cover: './momenta.png',
+  cover: './momenta.jpg',
   path: '/work/momenta',
   contain: false,
   background: '#6B476B',
@@ -127,7 +127,7 @@ export const query = graphql`
         }
       }
     }
-    share: file(relativePath: { eq: "momenta/share.png" }) {
+    share: file(relativePath: { eq: "momenta/share.jpg" }) {
       childImageSharp {
         sizes(maxWidth: 1400, quality: 90) {
           ...GatsbyImageSharpSizes_withWebp
