@@ -17,7 +17,7 @@ export const frontmatter = {
   subtitle: 'DSK Companion',
   date: '2017-07-01',
   path: '/work/dsk-companion',
-  cover: './dsk.png',
+  cover: './twitter.png',
   caption: 'A Google Design Sprint',
   background: '#EBEEF1',
   excerpt: `In the spring semester 2017 at FH Potsdam, I teamed up with Kevin, Isabell and Caspar to work on a project during a class supervised by Marian Gunkel (SAP). The class focused on Lean Startups, Design Sprints and User Testing.`,
